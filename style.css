@@ -1,0 +1,476 @@
+*{
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+}
+
+.menuList a {
+    text-decoration: none;
+    color: grey;
+    margin: 1rem;
+    font-size: .9rem;
+    font-weight: bold;
+}
+
+.menuList {
+    margin-left: 20rem;
+    margin-right: auto;
+}
+
+.menuButtons {
+    margin-left: auto;
+}
+
+.login {
+    background-color: white;
+    border: none;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    padding: 0.3rem 1rem;
+}
+
+.signup {
+    border: none;
+    border-radius: 3px;
+    background-color: #01966b;
+    color: white;
+    padding: 0.3rem 0.8rem;
+}
+
+.platform {
+    color: #01966b;
+}
+
+.container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.supercharge {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 5px;
+
+}
+
+.superText {
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.services {
+    margin-top: -15px;
+    line-height: 20px;
+}
+
+.superList {
+    list-style: none;
+    color: grey;
+    margin-left: -40px;
+}
+
+.superList li {
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+
+
+.photoCol input[type=email] {
+    border: none;
+    background-color: #f2f3f4;
+    padding-right: 100px;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.photoCol input[type=password] {
+    border: none;
+    background-color: #f2f3f4;
+    padding-right: 100px;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.photoCol input[type=submit] {
+    border: none;
+    border-radius: 5px;
+    background-color: #f2f3f4;
+    padding: 15px 95px;
+    color: white;
+    margin-bottom: 20px;
+    background-color: #01966b;
+}
+
+.logoList {
+    margin-right: auto;
+    margin-left: 15rem;
+}
+
+.logoList li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #a3a9c3
+}
+
+.secondSection {
+    margin-top: 100px;
+    color: #a3a9c3;
+}
+
+.thirdSection {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.push {
+    font-size: 2em;
+}
+
+.connect {
+    margin-top: -10px;
+    line-height: 1.5em;
+    color: grey;
+}
+
+.thirdSection span {
+    position: absolute;
+    z-index: 2;
+    margin-top: 8px;
+    margin-left: 5px;
+    color: #01d899;
+}
+
+.thirdSection input[type=text] {
+    font-family: 'Courier Prime', monospace;
+    background-color: #16012c;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    width: 40%;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+
+.fourthSection {
+    margin-top: 100px;
+}
+
+.advantages {
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 20px;
+    background-color: #f7f8fc;
+}
+
+.advantages input[type=button] {
+    padding: 10px 30px;
+    background-color: #01966b;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+}
+
+.checkButton {
+    margin-left: auto;
+}
+
+.paas {
+    color: #01d899;
+}
+
+.fifthSection {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+
+.textCol a h5 {
+    color: #01966b;
+    font-weight: bolder;
+}
+
+.textCol a {
+    text-decoration: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+.textCol h5 {
+    line-height: 1.2rem;
+    color: grey;
+}
+
+.sixthSection {
+    text-align: center;
+    margin-top: 7rem;
+    width: 100%;
+}
+
+.smallText {
+    line-height: 1.2rem;
+    color: grey;
+}
+
+.platformGrid {
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+    grid-gap: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3rem;
+    padding-right: auto;
+}
+
+.applications {
+    background-color: #16012c;
+    text-align: left;
+    padding-left: 1.5rem;
+    padding-top: 1.5rem;
+    border-radius: 10px;
+    padding-bottom: 0.5rem;
+}
+
+.databases {
+    background-color: #16012c;
+    text-align: left;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    border-radius: 10px;
+    padding-bottom: 0.5rem;
+}
+
+.storage {
+    background-color: #16012c;
+    text-align: left;
+    padding-top: 1.5rem;
+    padding-left: 1.5rem;
+    border-radius: 10px;
+    padding-bottom: 0.5rem;
+}
+
+.platformGrid img {
+    color: #0f9a78;
+}
+
+.sixthSection button {
+    padding: 10px 30px;
+    background-color: #01966b;
+    color: white;
+    border: none;
+    margin-top: 30px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.seventhSection {
+    margin-top: 50px;
+    display: flex;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    justify-content: space-around;
+}
+
+.europe {
+    width: 15%;
+    padding-left: 5px;
+    padding-top: 7px;
+}
+
+.europe img {
+    background-color: #f7f8fb;
+    float: left;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 5px;
+}
+
+.europe h4 {
+    line-height: 1.2rem;
+    color: grey;
+}
+
+.eightSection {
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 20px;
+}
+
+.firstMoreGrid {
+    text-align: center;
+    background-color: #f7f8fb;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.secondMoreGrid {
+    text-align: center;
+    background-color: #f7f8fb;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.moreButton {
+    padding: 10px 20px;
+    background-color: #01966b;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.ninthSection {
+    margin-top: 100px;
+}
+
+.behind {
+    display: flex;
+    flex-direction: row;
+}
+
+.blogButton {
+    background-color: #edeef3;
+    border: none;
+    border-radius: 5px;
+    margin-left: auto;
+    font-weight: bold;
+    font-size: 12px;
+    height: 60%;
+    padding: 10px 20px;
+    margin-top: 1rem;
+}
+
+.gridContainer {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 33.3% 33.3% 33.3%;
+}
+
+.gridContainer img {
+    border-radius: 10px;
+}
+
+.gridContainer h4 {
+    line-height: 1.5rem;
+    margin-top: -5px;
+}
+
+.gridContainer h5 {
+    margin-top: -10px;
+}
+
+.gridContainer .dateText {
+    margin-top: 5px;
+    color: grey;
+    font-size: 10px;
+}
+
+.childContainer {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+}
+
+
+
+.childText {
+    color: grey;
+    font-size: 10px;
+
+}
+
+
+.childItem img {
+    float: left;
+    margin-right: 10px;
+}
+
+
+
+.parentText {
+    margin-top: 10px;
+}
+
+.parentText h5 {
+    line-height: 1.2rem;
+    margin-top: -15px;
+}
+
+footer {
+    margin-top: 50px;
+    padding: 2rem;
+    background-color: #16012c;
+    color: white;
+}
+
+.container2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.startForm {
+    padding-left: 2rem;
+}
+
+.startForm input[type=email] {
+    border: none;
+    background-color: #38274b;
+    color: white;
+    padding-right: 100px;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.startForm input[type=password] {
+    border: none;
+    background-color: #38274b;
+    color: white;
+    padding-right: 100px;
+    padding-left: 10px;
+    border-radius: 5px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+.startForm input[type=submit] {
+    border: none;
+    border-radius: 5px;
+    padding: 15px 95px;
+    color: white;
+    margin-bottom: 20px;
+    background-color: #01966b;
+}
